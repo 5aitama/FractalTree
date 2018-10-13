@@ -1,0 +1,47 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.description {
+    height: -webkit-calc(100% - 50px - 10px);
+    position: absolute;
+    padding: 50px 30px 10px 50px;
+    background-color: #F4F4F4;
+    border-right: 1px solid rgb(227, 227, 227);
+    overflow: auto;
+}
+
+.description h1 {
+    margin: 0;
+}
+
+
+.mini {
+    margin: 0;
+    font-size: 14px;
+    color: #6a6a6a;
+}
+
+.description p {
+    margin: 20px 0px 0px 0px;
+    max-width: 300px;
+    min-width: 300px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+pre * {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 13px;
+}
+
+pre code {
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.025);
+}
